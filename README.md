@@ -1,3 +1,4 @@
+![GammaImpala Logo](images/gamma_impala_icon_64.png)
 GammaImpala
 ===========
 Change display gamma with one click

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/gamma_impala_icon_32.png</file>
+    </qresource>
+</RCC>
