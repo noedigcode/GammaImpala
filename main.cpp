@@ -1,7 +1,9 @@
-#include "mainwindow.h"
-#include <QApplication>
-#include <iostream>
 #include "gammalab.h"
+#include "mainwindow.h"
+
+#include <QApplication>
+
+#include <iostream>
 
 void print(QString msg)
 {
@@ -26,11 +28,11 @@ int main(int argc, char *argv[])
         } else {
             if ( (arg == "-h") || (arg == "--help") || (arg == "help") ) {
                 print("GammaImpala");
-                print("G van der Kolf 2019");
+                print("G van der Kolf 2019-2020");
                 print("");
                 print("Usage: GammaImpala [gamma]");
                 print("   gamma: float value of gamma, e.g. 0.8");
-                print("No arguments for GUI.");
+                print("If no arguments are provided the GUI is shown.");
                 print("");
                 return 0;
             } else {

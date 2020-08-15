@@ -1,10 +1,9 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
 #include "gammalab.h"
 
-#define n2s(x) QString::number(x)
+#include <QMainWindow>
 
 namespace Ui {
 class MainWindow;

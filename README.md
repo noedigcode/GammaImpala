@@ -4,7 +4,7 @@ GammaImpala
 Change display gamma with one click
 -----------------------------------
 
-2019 Gideon van der Kolf, noedigcode@gmail.com
+2019-2020 Gideon van der Kolf, noedigcode@gmail.com
 
 ![Screenshot](images/screenshot.png)
 
@@ -19,6 +19,18 @@ This is the biggest leap in gamma experimentation since the mysterious accidents
 that led to the Incredible Hulk. While all care has been taken to provide an
 error free application, I do not accept any responsibility for any accidents.
 Use this at your own risk.
+
+Usage:
+------
+
+Run with no arguments to show the GUI. The GUI displays a list of detected
+screens and provides buttons to set the gamma on all screens.
+
+Keyboard keys 7, 8, 9 and 0 or 1 can be used as shortcuts for the buttons.
+Esc exits the app.
+
+From the command-line, provide a value, e.g. 0.8, to set the gamma for all
+screens without showing the GUI.
 
 Requirements:
 -------------
