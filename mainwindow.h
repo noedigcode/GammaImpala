@@ -18,11 +18,13 @@ public:
     explicit MainWindow(GammaLab* g, QWidget *parent = 0);
     ~MainWindow();
 
+    bool eventFilter(QObject *watched, QEvent *event);
+
 private slots:
-    void on_pushButton_clicked();
-    void on_pushButton_2_clicked();
-    void on_pushButton_3_clicked();
-    void on_pushButton_4_clicked();
+    void on_pushButton_0_7_clicked();
+    void on_pushButton_0_8_clicked();
+    void on_pushButton_0_9_clicked();
+    void on_pushButton_1_0_clicked();
 
 private:
     Ui::MainWindow *ui;
