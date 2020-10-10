@@ -106,7 +106,7 @@ int setBrightnessRelative(GammaLab* g, QString arg)
     }
 
     float f = g->getBrightness(outs.first());
-    setBrightness(g, QString::number(f + rel, 'f', 1));
+    return setBrightness(g, QString::number(f + rel, 'f', 1));
 }
 
 int setGamma(GammaLab* g, QString arg)
