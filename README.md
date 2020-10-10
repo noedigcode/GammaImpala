@@ -32,6 +32,9 @@ Esc exits the app.
 From the command-line, provide a value, e.g. 0.8, to set the gamma for all
 screens without showing the GUI.
 
+Brightness can also be printed or set for all screens from the command-line.
+Use --help to see the available options.
+
 Requirements:
 -------------
 * Qt 5
