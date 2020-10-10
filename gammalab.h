@@ -11,6 +11,10 @@ public:
     explicit GammaLab(QObject *parent = nullptr);
 
     QStringList getOutputs();
+    float getBrightness(QString outputName);
+    QString getGamma(QString outputName);
+
+    void setAllOutputsBrightness(float brightness);
     void setAllOutputsGamma(QString g);
 
 private:
